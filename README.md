@@ -96,14 +96,13 @@ Context Aggregation
 Explanation Layer (LLaMA3 via Ollama)
 Final Output (Assignment + Route + Explanation)
 
-
-LLM	Llama3 (Ollama – Local)
 | Layer | Technology |
 |------|-----------|
 | Backend API | FastAPI |
 | LLM | Llama3 (Ollama – Local) |
 | Routing	|Dijkstra (Graph) |
+| Data Models	|	Pydantic |
 
 
 
-Data Models	Pydantic
+
